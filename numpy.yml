@@ -1,0 +1,9 @@
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  numpy:
+    lang: python3-debian
+    handler: ./numpy
+    image: numpy:latest
+
